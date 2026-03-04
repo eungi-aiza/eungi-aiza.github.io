@@ -37,6 +37,21 @@ body, html {
     color: #333;
 }
 
+.sidebar ul.nested {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: 0.25rem;
+}
+
+.sidebar ul.nested li {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+.sidebar ul.nested a {
+    color: #666;
+}
+
 .sidebar a:hover {
     text-decoration: underline;
 }
